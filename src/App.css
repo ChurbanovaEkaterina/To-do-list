@@ -1,0 +1,50 @@
+
+
+*{
+  text-align: center;
+}
+body{
+  background-color: floralwhite;
+}
+h1{
+  font-size: 60px;
+  color: DodgerBlue;
+}
+p:hover{
+  text-decoration: line-through;
+}
+p{
+  text-align: center;
+  border: 0.1px solid lightgrey;
+  width: 60%;
+  background-color: white;
+  padding: 10px;
+  margin: auto;
+}
+#p{
+  background-color: floralwhite;
+  border: 0.1px solid lightgrey;
+  text-decoration: none;
+}
+div{
+  padding: 10px;
+}
+label{
+  font-size: 10px;
+  color: grey;
+}
+input{
+  width: 60%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+}
+input:focus{
+ border:none;
+ outline:none;
+ border-bottom:2px solid red;
+}
